@@ -14,11 +14,19 @@
 *.userprefs
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Mono auto generated files
 mono_crash.*
 
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+# Mono auto generated files
+mono_crash.*
+
+=======
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -33,9 +41,15 @@ bld/
 [Oo]bj/
 [Ll]og/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [Ll]ogs/
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+[Ll]ogs/
+=======
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -50,6 +64,7 @@ Generated\ Files/
 [Bb]uild[Ll]og.*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # NUNIT
 *.VisualState.xml
 TestResult.xml
@@ -59,6 +74,17 @@ TestResult.xml
 TestResult.xml
 nunit-*.xml
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+=======
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 
 # Build Results of an ATL Project
 [Dd]ebugPS/
@@ -140,11 +166,19 @@ _ReSharper*/
 *.DotSettings.user
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # JustCode is a .NET coding add-in
 .JustCode
 
 =======
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+=======
+# JustCode is a .NET coding add-in
+.JustCode
+
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 # TeamCity is a build add-in
 _TeamCity*
 
@@ -203,10 +237,17 @@ PublishScripts/
 # NuGet Packages
 *.nupkg
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # NuGet Symbol Packages
 *.snupkg
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+# NuGet Symbol Packages
+*.snupkg
+=======
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
@@ -232,10 +273,17 @@ Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *.appxbundle
 *.appxupload
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+*.appxbundle
+*.appxupload
+=======
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -262,10 +310,17 @@ orleans.codegen.cs
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ASP.NET Core default setup: bower directory is configured as wwwroot/lib/ and bower restore is true
 **/wwwroot/lib/
 =======
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+=======
+# ASP.NET Core default setup: bower directory is configured as wwwroot/lib/ and bower restore is true
+**/wwwroot/lib/
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -291,11 +346,19 @@ ServiceFabricBackup/
 *.bim_*.settings
 *.rptproj.rsuser
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *- [Bb]ackup.rdl
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+=======
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 
 # Microsoft Fakes
 FakesAssemblies/
@@ -332,12 +395,20 @@ paket-files/
 .fake/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> feature
 # JetBrains Rider
 .idea/
 *.sln.iml
 
+<<<<<<< HEAD
 =======
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
 # CodeRush personal settings
 .cr/personal
 
@@ -380,9 +451,12 @@ ASALocalRun/
 .localhistory/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # BeatPulse healthcheck temp database 
 healthchecksdb
 =======
+=======
+>>>>>>> feature
 # BeatPulse healthcheck temp database
 healthchecksdb
 
@@ -391,4 +465,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+<<<<<<< HEAD
 >>>>>>> 6c9270a56aa3a765edcd3b4c98e354370d02943e
+=======
+=======
+# BeatPulse healthcheck temp database 
+healthchecksdb
+>>>>>>> 318f282d77a9017e908cdd2c0fcab6f874b9ef8a
+>>>>>>> feature
