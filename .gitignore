@@ -13,12 +13,19 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+<<<<<<< HEAD
 # Mono auto generated files
 mono_crash.*
 
 # Mono auto generated files
 mono_crash.*
 
+=======
+
+# Mono auto generated files
+mono_crash.*
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -32,7 +39,10 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+<<<<<<< HEAD
 [Ll]ogs/
+=======
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -46,12 +56,16 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-=======
+
 # NUNIT
 *.VisualState.xml
 TestResult.xml
@@ -135,6 +149,10 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # JustCode is a .NET coding add-in
 .JustCode
 
@@ -194,8 +212,14 @@ publish/
 PublishScripts/
 
 
+<<<<<<< HEAD
 # NuGet Symbol Packages
 *.snupkg
+=======
+# NuGet Packages
+*.nupkg
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
@@ -220,6 +244,10 @@ BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 *.appxbundle
 *.appxupload
 
@@ -247,6 +275,10 @@ orleans.codegen.cs
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # ASP.NET Core default setup: bower directory is configured as wwwroot/lib/ and bower restore is true
 **/wwwroot/lib/
 
@@ -273,6 +305,10 @@ ServiceFabricBackup/
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 *- [Bb]ackup.rdl
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
@@ -311,6 +347,10 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # JetBrains Rider
 .idea/
 *.sln.iml
@@ -356,7 +396,13 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+<<<<<<< HEAD
 # BeatPulse healthcheck temp database
+=======
+
+
+# BeatPulse healthcheck temp database 
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
@@ -364,3 +410,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
