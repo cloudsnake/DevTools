@@ -1,0 +1,19 @@
+﻿<Window x:Class="DevTools.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:core="clr-namespace:DevTools.Core;assembly=DevTools.Core"
+        Title="{Binding Title}" Height="350" Width="525" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="100*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ToolBar Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+            <RadioButton Content="代码库" Command="{Binding NavigationCommand}" CommandParameter="Code" Width="100" Margin="2" VerticalAlignment="Stretch"></RadioButton>
+            <RadioButton Content="颜色匹配表" Command="{Binding NavigationCommand}" CommandParameter="ColorTable" Width="100" Margin="2" VerticalAlignment="Stretch"></RadioButton>
+        </ToolBar>
+        <ContentControl prism:RegionManager.RegionName="{x:Static core:RegionNames.ContentRegion}" Grid.Row="1"  Grid.Column="0"/>
+    </Grid>
+</Window>

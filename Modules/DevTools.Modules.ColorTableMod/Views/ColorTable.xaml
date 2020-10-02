@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="DevTools.Modules.ColorTableMod.Views.ColorTable"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="100*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="100*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--ListBox-->
+        <DockPanel Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <WrapPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <WrapPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="2,10,2,10">
+                    <RadioButton x:Name="radio6" Content="六位码" Margin="0,2,4,2"></RadioButton>
+                    <RadioButton x:Name="radio8" Content="八位码" Margin="4,2,2,2"></RadioButton>
+                </WrapPanel>
+                <ListBox x:Name="listBox" ItemsSource="{Binding .}" 
+                         PreviewMouseDown="UIElement_OnPreviewMouseDown">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid  Background="{Binding ColorName}">
+                                <WrapPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Name}" FontSize="12" Foreground="OrangeRed" HorizontalAlignment="Center"  Margin="5,0,5,0"/>
+                                </WrapPanel>
+                            </Grid>
+                        </DataTemplate>
+
+                    </ListBox.ItemTemplate>
+
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel />
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+
+                    <ListBox.ItemContainerStyle>
+                        <Style>
+                            <Setter Property="Control.Width" Value="160"/>
+                            <Setter Property="Control.Height" Value="30"></Setter>
+                            <Setter Property="Control.Margin" Value="2"/>
+                            <Setter Property="Control.Background" Value="#CCCCCC"></Setter>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+
+                    <ListBox.Template>
+                        <ControlTemplate>
+                            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                                <ItemsPresenter/>
+                            </ScrollViewer>
+                        </ControlTemplate>
+                    </ListBox.Template>
+                </ListBox>
+            </WrapPanel>
+        </DockPanel>
+        <DockPanel Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="DarkGray">
+            <TextBlock x:Name="GroupDes" TextWrapping="Wrap"  Background="DarkGray"
+                       HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                       FontSize="18"></TextBlock>
+        </DockPanel>
+        <DockPanel Grid.Row="1" Grid.Column="1">
+            <ScrollViewer>
+                <WrapPanel x:Name="WrapPanel" Orientation="Horizontal">
+                </WrapPanel>
+
+            </ScrollViewer>
+        </DockPanel>
+    </Grid>
+</UserControl>

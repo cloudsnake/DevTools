@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>DevTools</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="7.2.0.1422" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevTools.Core\DevTools.Core.csproj" />
+    <ProjectReference Include="..\Modules\DevTools.Modules.CodeLibrary\DevTools.Modules.CodeLibrary.csproj" />
+    <ProjectReference Include="..\Modules\DevTools.Modules.ColorTableMod\DevTools.Modules.ColorTableMod.csproj" />
+    <ProjectReference Include="..\Services\DevTools.Services.Interfaces\DevTools.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\DevTools.Services\DevTools.Services.csproj" />
+  </ItemGroup>
+</Project>
