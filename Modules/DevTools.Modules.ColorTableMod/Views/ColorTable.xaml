@@ -15,10 +15,6 @@
         <!--ListBox-->
         <DockPanel Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <WrapPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                <WrapPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="2,10,2,10">
-                    <RadioButton x:Name="radio6" Content="六位码" Margin="0,2,4,2"></RadioButton>
-                    <RadioButton x:Name="radio8" Content="八位码" Margin="4,2,2,2"></RadioButton>
-                </WrapPanel>
                 <ListBox x:Name="listBox" ItemsSource="{Binding .}" 
                          PreviewMouseDown="UIElement_OnPreviewMouseDown">
                     <ListBox.ItemTemplate>

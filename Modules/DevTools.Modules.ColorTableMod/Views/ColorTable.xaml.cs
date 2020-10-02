@@ -21,18 +21,11 @@ namespace DevTools.Modules.ColorTableMod.Views
             _tasks = new ObservableCollection<ListBoxItemCustom>() { };
 
             DataContext = _tasks;
-            Isradio6 = true;
-            radio6.IsChecked = true;
             var color_query =
                 from PropertyInfo property in typeof(Colors).GetProperties()
                 orderby property.Name
                 select (Color)property.GetValue(null, null);
 
-            //foreach (var s in color_query)
-            //{
-            //   var colorItem = new ColorItem(s,s,s);
-            //   WrapPanel.Children.Add(colorItem);
-            //}
             var arrayColors = color_query.ToArray();
             for (int i = 0; i < arrayColors.Count(); i += 3)
             {
@@ -54,13 +47,6 @@ namespace DevTools.Modules.ColorTableMod.Views
         }
 
         ObservableCollection<ListBoxItemCustom> _tasks = null;
-        private bool isRadio6;
-
-        public bool Isradio6
-        {
-            get { return isRadio6; }
-            set { isRadio6 = value; }
-        }
 
         public Root CurrentData { get; private set; }
         private void LoadData()
@@ -88,7 +74,6 @@ namespace DevTools.Modules.ColorTableMod.Views
             var item = ItemsControl.ContainerFromElement(listBox, e.OriginalSource as DependencyObject) as ListBoxItem;
             if (item != null)
             {
-                // ListBox item clicked - do some cool things here
                 var content = item.Content;
                 if (content is ListBoxItemCustom)
                 {
@@ -139,20 +124,6 @@ namespace DevTools.Modules.ColorTableMod.Views
                     }
                 }
             }
-            //foreach (ColorType colorType in ColorTypes.ColorTypes2)
-            //{
-            //    if (colorType.TypeName == colorTypeName)
-            //    {
-            //        foreach (ColorGroup colorGroup in colorType.ColorGroups)
-            //        {
-            //            var colorItem = new ColorItem(
-            //                colorGroup.ThreeColors[0],
-            //                colorGroup.ThreeColors[1], 
-            //                colorGroup.ThreeColors[2]);
-            //            WrapPanel.Children.Add(colorItem);
-            //        }
-            //    }
-            //}
         }
 
     }
