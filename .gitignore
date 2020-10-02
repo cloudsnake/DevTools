@@ -4,7 +4,6 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
-*.rsuser
 *.suo
 *.user
 *.userosscache
@@ -13,19 +12,6 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-<<<<<<< HEAD
-# Mono auto generated files
-mono_crash.*
-
-# Mono auto generated files
-mono_crash.*
-
-=======
-
-# Mono auto generated files
-mono_crash.*
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -33,16 +19,10 @@ mono_crash.*
 [Rr]eleases/
 x64/
 x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-<<<<<<< HEAD
-[Ll]ogs/
-=======
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -55,16 +35,6 @@ Generated\ Files/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
-
-# NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
 
 # NUNIT
 *.VisualState.xml
@@ -82,6 +52,7 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+**/Properties/launchSettings.json
 
 # StyleCop
 StyleCopReport.xml
@@ -89,7 +60,7 @@ StyleCopReport.xml
 # Files built by Visual Studio
 *_i.c
 *_p.c
-*_h.h
+*_i.h
 *.ilk
 *.meta
 *.obj
@@ -106,7 +77,6 @@ StyleCopReport.xml
 *.tlh
 *.tmp
 *.tmp_proj
-*_wpftmp.csproj
 *.log
 *.vspscc
 *.vssscc
@@ -149,10 +119,6 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # JustCode is a .NET coding add-in
 .JustCode
 
@@ -211,15 +177,8 @@ publish/
 # in these scripts will be unencrypted
 PublishScripts/
 
-
-<<<<<<< HEAD
-# NuGet Symbol Packages
-*.snupkg
-=======
 # NuGet Packages
 *.nupkg
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
@@ -244,18 +203,12 @@ BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
-<<<<<<< HEAD
-=======
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
-*.appxbundle
-*.appxupload
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
 # but keep track of directories ending in .cache
-!?*.[Cc]ache/
+!*.[Cc]ache/
 
 # Others
 ClientBin/
@@ -268,19 +221,13 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-# Including strong name files can present a security risk
+# Including strong name files can present a security risk 
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
-<<<<<<< HEAD
-=======
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
-# ASP.NET Core default setup: bower directory is configured as wwwroot/lib/ and bower restore is true
-**/wwwroot/lib/
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -305,13 +252,6 @@ ServiceFabricBackup/
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
-<<<<<<< HEAD
-=======
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
-*- [Bb]ackup.rdl
-*- [Bb]ackup ([0-9]).rdl
-*- [Bb]ackup ([0-9][0-9]).rdl
 
 # Microsoft Fakes
 FakesAssemblies/
@@ -347,16 +287,12 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
 # JetBrains Rider
 .idea/
 *.sln.iml
 
-# CodeRush personal settings
-.cr/personal
+# CodeRush
+.cr/
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
@@ -381,7 +317,7 @@ __pycache__/
 # OpenCover UI analysis results
 OpenCover/
 
-# Azure Stream Analytics local run output
+# Azure Stream Analytics local run output 
 ASALocalRun/
 
 # MSBuild Binary and Structured Log
@@ -390,27 +326,5 @@ ASALocalRun/
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
-# MFractors (Xamarin productivity tool) working folder
+# MFractors (Xamarin productivity tool) working folder 
 .mfractor/
-
-# Local History for Visual Studio
-.localhistory/
-
-<<<<<<< HEAD
-# BeatPulse healthcheck temp database
-=======
-
-
-# BeatPulse healthcheck temp database 
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
-healthchecksdb
-
-# Backup folder for Package Reference Convert tool in Visual Studio 2017
-MigrationBackup/
-
-# Ionide (cross platform F# VS Code tools) working folder
-.ionide/
-<<<<<<< HEAD
-=======
-
->>>>>>> 95d0f193e636aa06292fd74e3ade8605dd7bbfe3
