@@ -13,8 +13,6 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-# Mono auto generated files
-mono_crash.*
 
 # Mono auto generated files
 mono_crash.*
@@ -32,7 +30,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -47,11 +44,12 @@ Generated\ Files/
 [Bb]uild[Ll]og.*
 
 
+
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-=======
+
 # NUNIT
 *.VisualState.xml
 TestResult.xml
@@ -135,6 +133,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+
 # JustCode is a .NET coding add-in
 .JustCode
 
@@ -194,8 +193,9 @@ publish/
 PublishScripts/
 
 
-# NuGet Symbol Packages
-*.snupkg
+# NuGet Packages
+*.nupkg
+
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
@@ -220,6 +220,7 @@ BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
+
 *.appxbundle
 *.appxupload
 
@@ -247,6 +248,7 @@ orleans.codegen.cs
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
+
 # ASP.NET Core default setup: bower directory is configured as wwwroot/lib/ and bower restore is true
 **/wwwroot/lib/
 
@@ -273,6 +275,7 @@ ServiceFabricBackup/
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
+
 *- [Bb]ackup.rdl
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
@@ -310,6 +313,7 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
+
 
 # JetBrains Rider
 .idea/
@@ -356,7 +360,9 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
-# BeatPulse healthcheck temp database
+
+
+# BeatPulse healthcheck temp database 
 healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
@@ -364,3 +370,4 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
