@@ -20,7 +20,8 @@
                  Background="Aqua"
                  CornerRadius="10,0,0,10"
                  MouseDown="R1_OnMouseDown"
-        >
+                 Cursor="Hand">
+            
         </Border>
         <TextBlock Grid.Row="1" Grid.Column="0" x:Name="T1"
                    HorizontalAlignment="Center" VerticalAlignment="Center"
@@ -29,7 +30,8 @@
 
         <Border x:Name="R2" Grid.Row="0" Grid.Column="1"  Background="Aqua"
                 CornerRadius="0,0,0,0"
-                MouseDown="R2_OnMouseDown">
+                MouseDown="R2_OnMouseDown"
+                Cursor="Hand">
         </Border>
         <TextBlock Grid.Row="1" Grid.Column="1" x:Name="T2"
                    HorizontalAlignment="Center" VerticalAlignment="Center"
@@ -37,12 +39,12 @@
         </TextBlock>
 
         <Border x:Name="R3" Grid.Row="0" Grid.Column="2" Background="Aqua"
-                CornerRadius="0,10,10,0" MouseDown="R3_OnMouseDown">
+                CornerRadius="0,10,10,0" MouseDown="R3_OnMouseDown"
+                Cursor="Hand">
         </Border>
         <TextBlock Grid.Row="1" Grid.Column="2" x:Name="T3"
                    HorizontalAlignment="Center" VerticalAlignment="Center"
                    FontWeight="Bold" FontSize="11" Text="#ABCDEFGH">
         </TextBlock>
-
     </Grid>
 </UserControl>

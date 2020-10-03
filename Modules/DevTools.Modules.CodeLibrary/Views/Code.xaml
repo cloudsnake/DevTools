@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:prism="http://prismlibrary.com/"
              xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
              prism:ViewModelLocator.AutoWireViewModel="True">
     <Grid>
         <Grid.RowDefinitions>
@@ -16,9 +17,12 @@
         </Grid.ColumnDefinitions>
 
         <ToolBar x:Name="toolBar" Height="32" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
-            <Button x:Name="btRefresh" Content="刷新" Width="60" Command="{Binding RefreshCommand}"></Button>
+            <Button x:Name="btRefresh" Content="刷新" HorizontalContentAlignment="Right" Width="60" Command="{Binding RefreshCommand}">
+            </Button>
             <Separator/>
-            <Button x:Name="btAddNew" Content="添加" Width="60"  Command="{Binding AddNewUpdate}"></Button>
+            <Button x:Name="btAddNew" Content="添加" Width="60"  Command="{Binding AddNewUpdate}">
+
+            </Button>
             <Separator/>
             <Button x:Name="btUpDate" Content="编辑" Width="60"  Command="{Binding UpdateCommand}" ></Button>
             <Separator/>
